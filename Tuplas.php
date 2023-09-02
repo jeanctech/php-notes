@@ -1,0 +1,4 @@
+<?php
+
+// Tuplas en php
+
