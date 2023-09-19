@@ -2,6 +2,14 @@
 
 // Condiccionales en php
 
+// Condiccional If
+
+$edad = 18;
+
+if ($edad >= 18) {
+    echo "Eres mayor de edad - ";
+}
+
 // Condiccional If - Else
 
 $lentes = true;
