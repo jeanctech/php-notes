@@ -1,5 +1,4 @@
 <?php
-
 // Hola Mundo en Php
 
 echo "Hola mundo ";
@@ -10,3 +9,4 @@ echo "-";
 /* El Script Finaliza aquí Sin Etiqueta de Cierre de Php */
 
 echo " Hello World";
+?>

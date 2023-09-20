@@ -15,5 +15,4 @@ if ($hacer_algo) {
       echo "No existo hasta que la ejecución del programa llegue hasta mí.\n";
     }
   }
-
 ?>

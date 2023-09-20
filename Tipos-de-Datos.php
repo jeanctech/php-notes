@@ -18,8 +18,8 @@ $a = 0b11111111; // Un Número Binario - Equivale al 255 Decimal
 
 // Numeros Float
 
-$a = 1.234; 
-$b = 1.2e3; 
+$a = 1.234;
+$b = 1.2e3;
 $c = 7E-10;
 $d = 1_234.567; // A partir de Php 7.4.0
 
