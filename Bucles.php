@@ -1,5 +1,4 @@
 <?php
-
 // Bucles en Php
 
 $galletas = 0;
@@ -38,5 +37,4 @@ for ($etas = 0; $etas < 10; $etas++){
     echo "$etas, ";
 
     }
-
 ?>
