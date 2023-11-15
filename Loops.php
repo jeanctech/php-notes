@@ -1,40 +1,61 @@
 <?php
-// Bucles en Php
+     //* Loops - Php
 
-$galletas = 0;
+     /* In Php, as in many other programming languages, there are several types of loops that
+     They allow you to execute a block of code repeatedly. The most common loops are `for`, `while`,
+     `do-while` and `foreach`. Here are examples of each: */
 
-while ($galletas < 10){
+     //* `for` loop:
 
-echo "$galletas, ";
+     // The `for` loop is used when the number of repetitions is known in advance.
 
-$galletas++;
+     for ($i = 0; $i < 5; $i++) {
+         echo $i . ", ";
+     }
 
-}
+     // This will print: 0, 1, 2, 3, 4,
 
-$nume1 = 0;
+     //* `while` loop:
 
-while ($nume1 < 50){
-    echo "$nume1, ";
-    $nume1++;
-}
+     // The `while` loop is executed as long as a condition is true.
 
-// Bucles Do - While
+     $i = 0;
 
-$galle = 0;
+     while ($i < 5) {
+         echo $i . ", ";
+         $i++;
+     }
 
-do {
+     // This will print: 0, 1, 2, 3, 4,
 
-echo "$galle, ";
+     //* `do-while` loop:
 
-$galle++;
+     /* Similar to the `while` loop, but ensures that it is executed at least once before checking the
+     condition. */
 
-} while ($galle < 10);
+     $i = 0;
 
-// Bucle For
+     do {
+         echo $i . ", ";
+         $i++;
+     } while ($i < 0);
 
-for ($etas = 0; $etas < 10; $etas++){
+     // This will print: 0,
 
-    echo "$etas, ";
+     //* `foreach` loop:
 
-    }
+     // Ideal for looping through arrays or collections.
+
+     $colors = array("red", "green", "blue");
+
+     foreach ($colors as $color) {
+         echo $color . " ";
+     }
+
+     // This will print: red green blue
+
+     /* Each type of loop has its own applications. The `for` is useful when you know the number
+     exact iterations, `while` and `do-while` are great when the condition is evaluated before the
+     execution, and `foreach` is great for looping through elements in arrays or collections without needing
+     know its size. */
 ?>

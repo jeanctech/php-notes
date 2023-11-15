@@ -1,5 +1,0 @@
-<?php
-// Modulos en Php
-
-
-?>

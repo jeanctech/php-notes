@@ -1,12 +1,12 @@
 <?php
-// Hola Mundo en Php
 
-echo "Hola mundo ";
+// Hello World - Php
+echo "Hello World";
 
-// ... Más código
-echo "-";
+// ...More code
+echo " - ";
 
-/* El Script Finaliza aquí Sin Etiqueta de Cierre de Php */
+// Years - Php
+echo "2023";
 
-echo " Hello World";
 ?>

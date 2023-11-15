@@ -1,5 +1,0 @@
-<?php
-// Listas en php
-
-
-?>

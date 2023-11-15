@@ -1,5 +1,0 @@
-<?php
-// Numeros en php
-
-
-?>

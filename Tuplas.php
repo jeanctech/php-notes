@@ -1,5 +1,0 @@
-<?php
-// Tuplas en php
-
-
-?>

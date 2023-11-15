@@ -1,4 +1,0 @@
-<?php
-// Calculadora en php
-
-?>

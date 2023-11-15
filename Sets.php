@@ -1,5 +1,0 @@
-<?php
-// Conjuntos en php
-
-
-?>
