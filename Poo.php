@@ -1,14 +1,14 @@
 <?php
-     //* Object Oriented Programming - Php
+     //* Poo - Php
 
-     /* Object-oriented programming - Poo in Php focuses on the creation of classes and objects, which
-     which allows you to organize and modularize the code in a more efficient and scalable way. Here are the
-     key concepts of Poo in Php. */
+     /* Programming Oriented Object - Poo in Php focuses on the creation of classes and objects, which
+     which allows you to organize and modularize the code in a more efficient and scalable way. Here are
+     the key concepts of Poo in Php. */
 
      //* Classes and Objects:
 
-     /* - **Classes:** They are templates for creating objects. They define properties (variables) and methods
-     (functions) that describe the behavior of the object. */
+     /* - **Classes:** They are templates for creating objects. They define properties (variables) and
+     methods (functions) that describe the behavior of the object. */
 
      class Person {
          public $name;
@@ -34,8 +34,8 @@
    //* Inheritance:
 
    /*
-   - Classes can inherit properties and methods from another class, allowing the class to be reused and extended.
-   existing functionality.
+   - Classes can inherit properties and methods from another class, allowing the class to be reused and
+   extended existing functionality.
    */
 
    class Employee extends Person {
@@ -51,15 +51,14 @@
 
    //* Abstraction:
 
-   /* - Allows you to define abstract classes and methods that do not contain an implementation and must be
-   implemented by the child classes. */
+   /* - Allows you to define abstract classes and methods that do not contain an implementation and must
+   be implemented by the child classes. */
 
    abstract class Form {
        abstract public function calculateArea();
    }
 
    /* Poo in Php offers a powerful and structured way to develop applications, allowing the
-   code organization, reusability, extensibility, and the ability to address
-   more efficiently through the creation of objects that represent entities and concepts of the world
-   real. */
+   code organization, reusability, extensibility, and the ability to address more efficiently
+   through the creation of objects that represent entities and concepts of the world real. */
 ?>

@@ -27,7 +27,7 @@ Php - Recursive acronym for Php - Hypertext Preprocessor is an open source, gene
 * [Lesson 15 - Data Collection](Data-Collection.php)
 * [Lesson 16 - Data Validation](Data-Validation.php)
 * [Lesson 17 - Database Storage](Database-Storage.php)
-* [Lesson 18 - Object-Oriented Programming](Object-Oriented-Programming.php)
+* [Lesson 18 - Poo](Poo.php)
 * [Lesson 19 - Classes and Objects](Classes-and-Objects.php)
 * [Lesson 20 - Properties and Methods](Properties-and-Methods.php)
 * [Lesson 21 - Constructors and Destructors](Constructors-and-Destructors.php)
@@ -50,7 +50,7 @@ In summary, Php is a very popular language used to create dynamic websites with 
 
 Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial goal of the project. And then I don't rule out adding new lessons in the future, but I think that for now it can serve as a basis for anyone who wants to start learning this language.
 
-*As soon as the course continues I will update the repository and notify the networks.
+* As soon as the course continues I will update the repository and notify the networks.
 Thank you very much for all the support shown!
 
 ## Links of interest
