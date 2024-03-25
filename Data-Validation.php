@@ -5,12 +5,12 @@
      users or received from other sources meet the necessary criteria before being processed
      or stored. Here I show you some common data validation methods in Php. */
 
-     //* Form Validation:
+     //? Form Validation:
 
      /* When receiving form data, it is essential to validate it to ensure that it meets the requirements.
      expected requirements. */
 
-     //* Validation of Required Fields:
+     //? Validation of Required Fields:
 
      // Make sure the required fields are not empty.
 
@@ -18,7 +18,7 @@
          $errors[] = "The name field is required";
      }
 
-     //* Format Validation:
+     //? Format Validation:
 
      /* Verify that the data entered is in the correct format, for example, an address
      valid email. */
@@ -27,7 +27,7 @@
          $errors[] = "The email is not valid";
      }
 
-     //* Numerical Validation:
+     //? Numerical Validation:
 
      // If a number is expected, it is important to check if the input is a valid number.
 
@@ -35,7 +35,7 @@
          $errors[] = "Age must be a number";
      }
 
-     //* Limit Length:
+     //? Limit Length:
 
      // Ensure that the length of the entered data does not exceed a defined limit.
 
@@ -43,7 +43,7 @@
          $errors[] = "The comment must be less than 200 characters";
      }
 
-     //* Validation with Regular Expressions:
+     //? Validation with Regular Expressions:
 
      // Regular expressions allow you to define specific patterns for data validation.
 
@@ -51,7 +51,7 @@
          $errores[] = "Only letters and spaces are allowed in the name field";
      }
 
-     //* Error Handling:
+     //? Error Handling:
 
      /* It is common to store error messages in an array to show them to the user after the
      validation. For example: */

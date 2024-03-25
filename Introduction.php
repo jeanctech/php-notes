@@ -7,7 +7,7 @@
      general open source especially suitable for web development and which can be embedded
      in Html. It was originally created by Rasmus Lerdorf in 1994. */
 
-     //* Main features of Php
+     //? Main features of Php
 
      /*
 

@@ -1,12 +1,12 @@
 <?php
 
-// Hello World - Php
+//* Hello World - Php
 echo "Hello World";
 
-// ...More code
+//? ...More code
 echo " - ";
 
-// Years - Php
+//* Years - Php
 echo "2023";
 
 ?>

@@ -4,7 +4,7 @@
      /* In Php, variables are containers that store information. Here are some details
      on how variables are used in Php. */
 
-     //* Declaration of variables:
+     //? Declaration of variables:
 
      // In Php, variables are declared with the `$` symbol followed by the variable name.
 
@@ -13,20 +13,20 @@
          $pi = 3.14; //Float variable
          $isStudent = true; // Boolean variable
 
-     //* Rules for Variable Names:
+     //? Rules for Variable Names:
 
      // - A variable name must begin with a dollar sign `$` followed by a letter or dash low.
      // - May contain letters, numbers and underscores.
      // - Cannot start with a number.
 
-     //* Variable Assignment:
+     //? Variable Assignment:
 
      // Variables are assigned using the assignment operator (`=`).
 
          $number = 10;
          $text = "Hello";
 
-     //* Global Variables:
+     //? Global Variables:
 
      /* Php has predefined variables that are known as global variables and are accessed from any
      part of the script. */
@@ -36,14 +36,14 @@
          $_Session; // Session variables
          $_Server; // Server information and Http request
 
-     //* Concatenation of Variables:
+     //? Concatenation of Variables:
 
          // To combine variables and strings, the concatenation operator (`.`) is used.
 
          $name = "John";
          echo "Hello, " . $name; // Result: Hello, Juan
 
-     //* Variables of Variables:
+     //? Variables of Variables:
 
      // In Php, it is possible to use the value of one variable as the name of another variable.
 
@@ -51,7 +51,7 @@
          $$name = "Perez"; // Will create a variable $Juan with value "Pérez"
          echo $John; // Result: Pérez
 
-     //* Scope of Variables:
+     //? Scope of Variables:
 
      /*
      - Variables in Php can have different scopes, such as global, local or static. Default,

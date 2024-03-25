@@ -5,28 +5,28 @@
      object-oriented, providing a mechanism for defining methods that must be implemented by
      the daughter classes. */
 
-     //* Interfaces:
+     //? Interfaces:
 
      /* An interface is a collection of methods that must be implemented by any class that uses it.
      use. It defines what methods a class should contain, but does not implement its logic. */
 
-     //* Declaration of an interface:
+     //? Declaration of an interface:
 
      interface Form {
          public function calculateArea();
          public function calculatePerimeter();
      }
 
-     //* Implementation of an interface:
+     //? Implementation of an interface:
 
-     class Circle implements Shape {
-         private $radio;
-         public function __construct($radio) {
-             $this->radio = $radio;
+     class Circle implements Form {
+         private $radius;
+         public function __construct($radius) {
+             $this->radius = $radius;
          }
 
          public function calculateArea() {
-             return pi() * $this->radio * $this->radio;
+             return pi() * $this->radius * $this->radius;
          }
 
          public function calculatePerimeter() {
@@ -34,13 +34,13 @@
          }
      }
 
-     //* Abstract Classes:
+     //? Abstract Classes:
 
      /* An abstract class is a class that cannot be instantiated directly, but can contain
      abstract methods (methods that must be implemented by child classes) and concrete methods with
      its own implementation. */
 
-     //* Declaration of an abstract class:
+     //? Declaration of an abstract class:
 
      abstract class Figure {
          abstract public function calculateArea();
@@ -51,7 +51,7 @@
          }
      }
 
-     //* Implementation of a child class that extends an abstract class:
+     //? Implementation of a child class that extends an abstract class:
 
      class Square extends Figure {
          private $side;

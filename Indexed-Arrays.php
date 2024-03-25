@@ -5,7 +5,7 @@
      single variable, accessing each value through a numerical index. These arrangements begin their
      indexing from scratch. */
 
-     //* Here is a basic example of how to work with indexed arrays in Php.
+     //? Here is a basic example of how to work with indexed arrays in Php.
 
      // Create an indexed array
      $colors = array("red", "green", "blue");

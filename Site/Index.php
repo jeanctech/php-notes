@@ -1,6 +1,6 @@
 <?php
 
-   // Index - Php
+   //* Index - Php
 
    $variable_one = 20;
    $variable_two = 30;

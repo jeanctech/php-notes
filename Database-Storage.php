@@ -4,7 +4,7 @@
      /* Php offers support for a variety of database management systems (DBMS), which
      allows connection, query and manipulation of data in databases from web applications. */
 
-     //* Some of the popular database management systems that Php supports are:
+     //? Some of the popular database management systems that Php supports are:
 
      /*
 

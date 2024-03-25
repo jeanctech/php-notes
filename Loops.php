@@ -5,7 +5,7 @@
      They allow you to execute a block of code repeatedly. The most common loops are `for`, `while`,
      `do-while` and `foreach`. Here are examples of each: */
 
-     //* `for` loop:
+     //? `for` loop:
 
      // The `for` loop is used when the number of repetitions is known in advance.
 
@@ -15,7 +15,7 @@
 
      // This will print: 0, 1, 2, 3, 4,
 
-     //* `while` loop:
+     //? `while` loop:
 
      // The `while` loop is executed as long as a condition is true.
 
@@ -28,7 +28,7 @@
 
      // This will print: 0, 1, 2, 3, 4,
 
-     //* `do-while` loop:
+     //? `do-while` loop:
 
      /* Similar to the `while` loop, but ensures that it is executed at least once before checking the
      condition. */
@@ -42,7 +42,7 @@
 
      // This will print: 0,
 
-     //* `foreach` loop:
+     //? `foreach` loop:
 
      // Ideal for looping through arrays or collections.
 

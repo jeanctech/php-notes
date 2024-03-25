@@ -5,13 +5,13 @@
      during the execution of a script and can be "throw" to handle unexpected situations
      or problems in a controlled manner. */
 
-     //* Syntax:
+     //? Syntax:
 
      // To throw an exception, the `throw` keyword is used, followed by an exception object.
 
      throw new Exception('An error occurred');
 
-     //* Example of Use:
+     //? Example of Use:
 
      /* Imagine a function that validates the age of a user. If the age is less than 18, the function will launch
      an exception. */
@@ -24,7 +24,7 @@
          }
      }
 
-     //* Function call and exception handling
+     //? Function call and exception handling
 
      try {
          echo validateAge(15);

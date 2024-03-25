@@ -4,7 +4,7 @@
      /* In Php, classes contain properties (variables) and methods (functions) that define the
      behavior and characteristics of objects created from those classes. */
 
-     //* Properties:
+     //? Properties:
 
      // Properties are variables associated with a class and represent characteristics or data of the object.
 
@@ -29,7 +29,7 @@
      - Private properties are only accessible within the class that defines them.
      */
 
-     //* Methods:
+     //? Methods:
 
      /* Methods are functions associated with a class and define the behavior of the objects of that class.
      class. */
@@ -59,7 +59,7 @@
      - Private methods are only accessible within the class that defines them.
      */
 
-     //* Visibility:
+     //? Visibility:
 
      /*
      - **public:** Accessible from anywhere, inside or outside the class.

@@ -5,7 +5,7 @@
      various sources, such as web forms, Http requests, databases, and other external services
      Here are some common methods to collect data in Php. */
 
-     //* Receive Data from Html Forms
+     //? Receive Data from Html Forms
 
      // Using the Post or Get method to receive data from Html forms
 
@@ -19,7 +19,7 @@
      /* Php has super global variables like `$_Post`, `$_Get`, `$_Request, `$_Session`, `$_Cookie`,
      among others, that store data received from different sources. */
 
-     //* Interaction with Databases:
+     //? Interaction with Databases:
 
      /* To collect data from databases, extensions or libraries such as MySqli or Pdo are used to
      run SQL queries and get results. */
@@ -35,7 +35,7 @@
          // Process each row of data
      }
 
-     //* Get Http Request Data.
+     //? Get Http Request Data.
 
      /* To receive data from Http requests, the headers, URL parameters and
      other data related to the request. */

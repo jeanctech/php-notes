@@ -4,7 +4,7 @@
      /* In Php, as in many programming languages, the control structures are
      fundamental to managing the logic and flow of the program. Here I detail the main ones: */
 
-     //* Conditional Control Structures:
+     //? Conditional Control Structures:
 
      //* 1. **if-else:**
 
@@ -35,7 +35,7 @@
             echo "Unrecognized option";
      }
 
-     //* Loop Control Structures (Iterative):
+     //? Loop Control Structures (Iterative):
 
      //* 1. **for:**
 

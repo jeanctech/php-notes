@@ -5,7 +5,7 @@
      send data to the server. Here I show you how to process the information of an Html form
      using Php. */
 
-     //* Creation of an Html form.
+     //? Creation of an Html form.
 
      /*
      <form action="process_formulario.php" method="post">
@@ -15,25 +15,25 @@
      </form>
      */
 
-     //* Processing in Php
+     //? Processing in Php
 
      /* The form's `action` attribute specifies where to send the data. In this case, they will be sent
      to a Php file called `process_formulario.php`. */
 
-     //* `processar_formulario.php` (Php to process the form data):
+     //? `processar_formulario.php` (Php to process the form data):
 
      if ($_Server["Request_Method"] == "Post") {
          $name = $_Post['name'];
          $email = $_Post['email'];
 
-     //* Process the received data
+     //? Process the received data
 
      // For example, print the received data
      echo "Name: " . $name . "<br>";
      echo "Email: " . $email;
      }
 
-     //* Explanation:
+     //? Explanation:
 
      /*
      - The code checks if the request method is `Post`.

@@ -8,7 +8,7 @@
      The `try` block allows you to test a block of code for errors, and the `catch` block allows
      handle any exceptions that may be thrown in the `try` block. */
 
-     //* Here is an example of how to use it:
+     //? Here is an example of how to use it:
 
      try {
          // Try to execute this block of code

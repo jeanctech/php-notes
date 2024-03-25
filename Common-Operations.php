@@ -5,7 +5,7 @@
      work with strings, perform mathematical calculations and more. Here I show you some of the operations
      common: */
 
-     //* Mathematical operations:
+     //? Mathematical operations:
 
      $a = 10;
      $b = 5;
@@ -22,7 +22,7 @@
      // Division
      $division = $a / $b; // Result: 2
 
-     //* String Manipulation:
+     //? String Manipulation:
 
      $name = "John";
      $lastname = "Perez";
@@ -37,7 +37,7 @@
      $uppercase = strtoupper($name); // Result: "John"
      $lowercase = strtolower($lastname); // Result: "Perez"
 
-     //* Operations with Arrays:
+     //? Operations with Arrays:
 
      $colors = array("red", "green", "blue");
 
@@ -50,7 +50,7 @@
      // Sort an array
      sort($colors); // Sort the array alphabetically
 
-     //* Control Structures:
+     //? Control Structures:
 
      $age = 20;
 

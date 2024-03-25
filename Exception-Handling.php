@@ -4,7 +4,7 @@
      /* In Php, exception handling is done with the structures `try`, `catch` and, optionally,
      `finally`. This allows errors to be controlled and handled in a structured way. */
 
-     //* Throw an Exception:
+     //? Throw an Exception:
 
      // To raise an exception, the `throw` keyword is used. For example:
 
@@ -15,7 +15,7 @@
          return $dividend / $divisor;
      }
 
-     //* Catch and Handle Exceptions:
+     //? Catch and Handle Exceptions:
 
      /* The `try` block attempts to execute a piece of code that is expected to occur
      exceptions. If an exception is thrown, it is caught in one or more `catch` blocks. */
@@ -29,7 +29,7 @@
      /* In this case, if an attempt is made to divide by zero, an exception is thrown. The `catch` block captures the
      exception of type `Exception`, and a message is printed indicating the type of error. */
 
-     //* Using the `finally` Block (optional):
+     //? Using the `finally` Block (optional):
 
      /* The `finally` block can be used to define code that will always be executed,
      regardless of whether an exception is thrown or not. */

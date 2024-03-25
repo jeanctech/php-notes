@@ -5,7 +5,7 @@
      project needs, but there are some common elements that are usually part of the project process.
      development in Php. */
 
-     //* Code Editors or Ides:
+     //? Code Editors or Ides:
 
      /*
 
@@ -18,7 +18,7 @@
 
      */
 
-     //* Web Servers:
+     //? Web Servers:
 
      /*
 
@@ -29,7 +29,7 @@
 
      */
 
-     //* Version control:
+     //? Version control:
 
      /*
 
@@ -38,7 +38,7 @@
 
      */
 
-     //* Debugging and Testing:
+     //? Debugging and Testing:
 
      /*
 
@@ -49,11 +49,11 @@
 
      */
 
-     //* Dependency Management:
+     //? Dependency Management:
 
      // - **Composer:** Tool to manage PHP dependencies in a project.
 
-     //* Frameworks and Libraries:
+     //? Frameworks and Libraries:
 
      /*
 
@@ -64,7 +64,7 @@
 
      */
 
-     //* Databases:
+     //? Databases:
 
      // - **MySql, PostgreSql, SqLite:** Common database management systems used with Php.
 

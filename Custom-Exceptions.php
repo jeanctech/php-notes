@@ -5,7 +5,7 @@
      inside your code. This allows you to capture and deal with errors more specifically. To create
      custom exceptions, you can extend Php's `Exception` base class. */
 
-     //* Here is an example of how to create and use a custom exception.
+     //? Here is an example of how to create and use a custom exception.
 
      class MyCustomException extends Exception {
          public function CustomMessage() {

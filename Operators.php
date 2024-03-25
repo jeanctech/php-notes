@@ -5,7 +5,7 @@
      variables and values. There are several types of operators that perform different actions, from
      mathematical operations to comparisons and assignments. */
 
-     //* Arithmetic Operators:
+     //? Arithmetic Operators:
 
      // Perform basic mathematical operations.
 
@@ -17,7 +17,7 @@
      - **Module (%)**: `$a % $b` (returns the remainder of the division)
      */
 
-     //* Assignment Operators:
+     //? Assignment Operators:
 
      // Used to assign values to variables.
 
@@ -26,7 +26,7 @@
      - **Assignment with operation (+=, -=, *=, /=)**: `$a += 5` (equivalent to `$a = $a + 5`)
      */
 
-     //* Comparison Operators:
+     //? Comparison Operators:
 
      // Compare two values and return a boolean result (true or false).
 
@@ -37,7 +37,7 @@
      - **Less than (<)**, **Greater than (>)**, **Less than or equal to (<=)**, **Greater than or equal to (>=)**
      */
 
-     //* Logical operators:
+     //? Logical operators:
 
      // Combines conditional expressions and returns a boolean result.
 
@@ -47,7 +47,7 @@
      - **Not (!)**: `!$a`
      */
 
-     //* Concatenation Operator:
+     //? Concatenation Operator:
 
      // Combine text strings.
 
@@ -55,7 +55,7 @@
      - **Concatenation (.)**: `$greeting = "Hello " . $name;`
      */
 
-     //* Increment/Decrement Operators:
+     //? Increment/Decrement Operators:
 
      // Modify the value of a variable.
 
@@ -64,7 +64,7 @@
      - **Decrement (--$a or $a--)**
      */
 
-     //* Other Operators:
+     //? Other Operators:
 
      /*
      - **Ternary Operator (expression ? valueIfTrue : valueIfFalse)**: `$result = ($age >= 18) ? "Elderly

@@ -4,12 +4,12 @@
      /* In Php, inheritance and polymorphism are key concepts of object-oriented programming
      Poo that allow code reuse and flexibility in the structure of classes and objects. */
 
-     //* Inheritance:
+     //? Inheritance:
 
      /* Inheritance is the mechanism by which one class can inherit properties and methods from another
      class, establishing a class hierarchy. In Php, this is achieved using the `extends` keyword. */
 
-     //* Inheritance example:
+     //? Inheritance example:
 
      class Animal {
          public function makeSound() {
@@ -27,12 +27,12 @@
      redefine to change behavior. However, it still maintains access to the methods and properties
      of the class `Animal`. */
 
-     //* Polymorphism:
+     //? Polymorphism:
 
      /* Polymorphism allows an object to behave in multiple ways. In Php, it is achieved by
      redefine a method in the child class that already exists in the parent class. */
 
-     //* Example of polymorphism:
+     //? Example of polymorphism:
 
      class Cat extends Animal {
          public function makeSound() {

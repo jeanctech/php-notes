@@ -5,7 +5,7 @@
      code that can generate an exception, allowing control and handling of errors in a way
      structured. */
 
-     //* Syntax:
+     //? Syntax:
 
      try {
          // Code that can throw an exception
@@ -23,7 +23,7 @@
 
      */
 
-     //* Example of Use:
+     //? Example of Use:
 
      /* Imagine a function that tries to divide two numbers. If the divisor is zero, a
      exception. The `try` block will handle this possible exception. */

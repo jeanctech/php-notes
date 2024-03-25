@@ -5,19 +5,19 @@
      accept parameters, perform operations and return a result. Here I show you how to create and
      use functions in Php. */
 
-     //* Declaration of a function:
+     //? Declaration of a function:
 
      function greet() {
          echo "Hello, welcome!";
      }
 
-     //* Call to a function:
+     //? Call to a function:
 
      // Once you define a function, you can call it anywhere in your code.
 
      greet(); // Will print: Hello, welcome!
 
-     //* Functions with parameters:
+     //? Functions with parameters:
 
      // Functions can accept parameters to customize their behavior.
 
@@ -27,7 +27,7 @@
 
      greetPerson("John"); // Will print: Hello, Juan!
 
-     //* Return value:
+     //? Return value:
 
      // Functions can return a result using the `return` keyword.
 
@@ -37,7 +37,7 @@
 
      $result = add(3, 5); // $result will contain the value 8
 
-     //* Default parameters:
+     //? Default parameters:
 
      // You can define default values for the parameters of a function.
 

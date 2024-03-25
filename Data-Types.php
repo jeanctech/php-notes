@@ -4,7 +4,7 @@
      /* Php supports a wide variety of data types, from basic to more complex types.
      Here is a description of the main data types in Php. */
 
-     //* Scalar Types:
+     //? Scalar Types:
 
      // - **Integer:** Represents whole numbers, positive or negative, without decimals.
 
@@ -23,7 +23,7 @@
      $true = true;
      $false = false;
 
-     //* Composite Types:
+     //? Composite Types:
 
      // - **Array:** Stores multiple values.
 
@@ -40,7 +40,7 @@
      $person->name = "John";
      $person->age = 30;
 
-     //* Special Types:
+     //? Special Types:
 
      // - **Null:** Represents a variable without a value.
 
@@ -48,13 +48,13 @@
 
      // - **Resource:** Specially used to handle external resources, such as open files.
 
-     //* Advanced Composite Types:
+     //? Advanced Composite Types:
 
      // - **Callable:** May contain a reference to a function.
 
      // - **Iterable:** Introduced in PHP 7.1, indicates that a variable is iterable.
 
-     //* Constants:
+     //? Constants:
 
      // - Constants are values that cannot be changed once defined.
 
